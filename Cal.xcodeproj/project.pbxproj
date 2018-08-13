@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3BAF59EC212182C000455168 /* LJCalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BAF59EB212182C000455168 /* LJCalView.m */; };
 		3BEAF2DA21213D56003BE3A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BEAF2D921213D56003BE3A4 /* AppDelegate.m */; };
 		3BEAF2DD21213D56003BE3A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BEAF2DC21213D56003BE3A4 /* ViewController.m */; };
 		3BEAF2E021213D56003BE3A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BEAF2DE21213D56003BE3A4 /* Main.storyboard */; };
@@ -16,6 +17,8 @@
 		3BEAF2EB21213D57003BE3A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BEAF2EA21213D57003BE3A4 /* main.m */; };
 		3BEAF2F521213D57003BE3A4 /* CalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BEAF2F421213D57003BE3A4 /* CalTests.m */; };
 		3BEAF30021213D57003BE3A4 /* CalUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BEAF2FF21213D57003BE3A4 /* CalUITests.m */; };
+		3BEAF30E21213D6A003BE3A4 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 3BEAF30D21213D6A003BE3A4 /* readme.md */; };
+		3BEAF31121215C4A003BE3A4 /* LJFastModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BEAF31021215C4A003BE3A4 /* LJFastModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3BAF59EA212182C000455168 /* LJCalView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJCalView.h; sourceTree = "<group>"; };
+		3BAF59EB212182C000455168 /* LJCalView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJCalView.m; sourceTree = "<group>"; };
 		3BEAF2D521213D56003BE3A4 /* Cal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BEAF2D821213D56003BE3A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3BEAF2D921213D56003BE3A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -53,6 +58,9 @@
 		3BEAF2FB21213D57003BE3A4 /* CalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BEAF2FF21213D57003BE3A4 /* CalUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalUITests.m; sourceTree = "<group>"; };
 		3BEAF30121213D57003BE3A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BEAF30D21213D6A003BE3A4 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		3BEAF30F21215C4A003BE3A4 /* LJFastModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJFastModel.h; sourceTree = "<group>"; };
+		3BEAF31021215C4A003BE3A4 /* LJFastModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJFastModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,10 +111,15 @@
 		3BEAF2D721213D56003BE3A4 /* Cal */ = {
 			isa = PBXGroup;
 			children = (
+				3BEAF30D21213D6A003BE3A4 /* readme.md */,
 				3BEAF2D821213D56003BE3A4 /* AppDelegate.h */,
 				3BEAF2D921213D56003BE3A4 /* AppDelegate.m */,
 				3BEAF2DB21213D56003BE3A4 /* ViewController.h */,
 				3BEAF2DC21213D56003BE3A4 /* ViewController.m */,
+				3BEAF30F21215C4A003BE3A4 /* LJFastModel.h */,
+				3BEAF31021215C4A003BE3A4 /* LJFastModel.m */,
+				3BAF59EA212182C000455168 /* LJCalView.h */,
+				3BAF59EB212182C000455168 /* LJCalView.m */,
 				3BEAF2DE21213D56003BE3A4 /* Main.storyboard */,
 				3BEAF2E421213D57003BE3A4 /* Assets.xcassets */,
 				3BEAF2E621213D57003BE3A4 /* LaunchScreen.storyboard */,
@@ -238,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BEAF30E21213D6A003BE3A4 /* readme.md in Resources */,
 				3BEAF2E821213D57003BE3A4 /* LaunchScreen.storyboard in Resources */,
 				3BEAF2E521213D57003BE3A4 /* Assets.xcassets in Resources */,
 				3BEAF2E021213D56003BE3A4 /* Main.storyboard in Resources */,
@@ -266,9 +280,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BEAF2E321213D56003BE3A4 /* Cal.xcdatamodeld in Sources */,
+				3BAF59EC212182C000455168 /* LJCalView.m in Sources */,
 				3BEAF2DD21213D56003BE3A4 /* ViewController.m in Sources */,
 				3BEAF2EB21213D57003BE3A4 /* main.m in Sources */,
 				3BEAF2DA21213D56003BE3A4 /* AppDelegate.m in Sources */,
+				3BEAF31121215C4A003BE3A4 /* LJFastModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,13 +454,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = K6PLVUGV9C;
+				DEVELOPMENT_TEAM = 687578X8YU;
 				INFOPLIST_FILE = Cal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = LJ.Cal;
+				PRODUCT_BUNDLE_IDENTIFIER = shCal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -455,13 +472,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = K6PLVUGV9C;
+				DEVELOPMENT_TEAM = 687578X8YU;
 				INFOPLIST_FILE = Cal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = LJ.Cal;
+				PRODUCT_BUNDLE_IDENTIFIER = shCal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
